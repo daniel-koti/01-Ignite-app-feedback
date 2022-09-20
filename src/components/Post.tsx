@@ -13,15 +13,15 @@ interface Author {
   avatarUrl: string;
 }
 
-interface PostProps {
-  author: Author;
-  publishedAt: Date;
-  content: Content[];  
-}
-
 interface Content {
   type: 'paragraph' | 'link'
   content: string;
+}
+
+export interface PostProps {
+  author: Author;
+  publishedAt: Date;
+  content: Content[];  
 }
 
 export function Post({ author, publishedAt, content }: PostProps) {
@@ -47,7 +47,7 @@ export function Post({ author, publishedAt, content }: PostProps) {
     setNewCommentText('')
   }
 
-  function handlNewCommentChange(event: ChangeEvent<HTMLTextAreaElement>) {
+  function handleNewCommentChange(event: ChangeEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity('')
     setNewCommentText(event.target.value)
   }
@@ -96,7 +96,7 @@ export function Post({ author, publishedAt, content }: PostProps) {
           name='comment'
           value={newCommentText}
           placeholder="Deixe um comentário"
-          onChange={handlNewCommentChange}
+          onChange={handleNewCommentChange}
           onInvalid={handleNewCommentInvalid}
           required
         />
