@@ -16,11 +16,6 @@
    <a href="https://www.instagram.com/daniel_koti/">
       <img alt="Daniel Moniz" src="https://img.shields.io/badge/-Daniel%20Moniz-5965e0?style=for-the-badge&logo=Instagram&logoColor=white" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/daniel-koti/01-Ignite-app-feedback?style=for-the-badge&label=Repo%20Size:&labelColor=5965e0&color=5965e0">
-	<br />
-  <a href="https://github.com/daniel-koti/01-Ignite-app-feedback/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/daniel-koti/01-Ignite-app-feedback/commits/main?style=for-the-badge&label=last%20commit:&labelColor=5965e0&color=5965e0">
-  </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0?style=for-the-badge&labelColor=5965e0&color=5965e0">
   <br />
 </p>
